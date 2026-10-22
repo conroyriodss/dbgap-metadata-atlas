@@ -21,8 +21,8 @@
       "sha256": "15b0684f9000a27af9ed0d0c44de43702fdf98ebfddc0f10de004aa792601eb8"
     },
     ".github/workflows/checks.yml": {
-      "bytes": 624,
-      "sha256": "965a96a7d186f868e159116a397597c3de129bd0af829dbb7e8f1504c04fce74"
+      "bytes": 932,
+      "sha256": "5c7c0d1c72481b10fb4aca2b5b68b3b140d8f9366e5e45ee4633a2c0a235b45e"
     },
     ".gitignore": {
       "bytes": 501,
@@ -217,8 +217,8 @@
       "sha256": "3752ce6b9ec7174830651159da8c7d1f1cf1773e6efe38795785dcfb21750478"
     },
     "tests/test_repository.py": {
-      "bytes": 12076,
-      "sha256": "ad1abe069eba049175bd7353020b99a023e2c4d7b0d2b555990fe4c6c6202e06"
+      "bytes": 13505,
+      "sha256": "1923cd32782217be55fa8180db4ac7572dd1afd92883ac5c5146dffb8b85c544"
     }
   },
   "note": "Exact prepared code/documentation payload; not a scientific data release. Excludes itself.",
