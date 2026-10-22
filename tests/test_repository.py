@@ -102,7 +102,31 @@ class RepositoryTests(unittest.TestCase):
         a=pub.build_payload(ROOT,'example','repo');b=pub.build_payload(ROOT,'example','repo')
         self.assertEqual(pub.payload_fingerprint(a),pub.payload_fingerprint(b))
         self.assertNotIn(b'__OWNER__',a['README.md'])
-        self.assertIn(b'https://github.com/example/repo',a['CITATION.cff'])
+        # A source template has placeholders; a published checkout has real URLs.
+        # Preserve resolved citation attribution rather than retargeting it for this test.
+        expected_citation = (ROOT / 'CITATION.cff').read_bytes()
+        for source, target in [(b'__OWNER__', b'example'),
+                               (b'__REPO__', b'repo'),
+                               (b'__BRANCH__', b'main')]:
+            expected_citation = expected_citation.replace(source, target)
+        self.assertEqual(a['CITATION.cff'], expected_citation)
+
+    def test_template_citation_resolves_requested_target(self):
+        from unittest.mock import patch
+        files = rt.read_public_files(ROOT)
+        files['CITATION.cff'] = b'repository-code: "https://github.com/__OWNER__/__REPO__"\n'
+        with patch.object(pub, 'read_public_files', return_value=files):
+            data = pub.build_payload(ROOT, 'example', 'repo')
+        self.assertEqual(data['CITATION.cff'], b'repository-code: "https://github.com/example/repo"\n')
+
+    def test_resolved_citation_preserves_existing_attribution(self):
+        from unittest.mock import patch
+        files = rt.read_public_files(ROOT)
+        citation = b'repository-code: "https://github.com/original-owner/original-repo"\n'
+        files['CITATION.cff'] = citation
+        with patch.object(pub, 'read_public_files', return_value=files):
+            data = pub.build_payload(ROOT, 'example', 'repo')
+        self.assertEqual(data['CITATION.cff'], citation)
 
     def test_payload_does_not_change_science(self):
         data=pub.build_payload(ROOT,'example','repo')
