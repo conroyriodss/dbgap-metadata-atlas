@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Cite the exact code commit and the separate data snapshot. Confirm contributor attribution before a tagged release."
+title: "dbGaP Metadata Atlas"
+type: software
+authors:
+  - name: "dbGaP Metadata Atlas contributors"
+repository-code: "https://github.com/conroyriodss/dbgap-metadata-atlas"
+abstract: "Exploratory, reproducible analysis of public metadata around dbGaP access activity, publications, clinical references, semantic profiles and repository relationships. Not an official NIH product or a validated causal impact assessment."
+keywords:
+  - dbGaP
+  - research data sharing
+  - public metadata
+  - reproducibility
+  - MeSH

@@ -1,0 +1,20 @@
+{
+  "python": "3.13.5",
+  "direct_packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "requests": "2.32.5",
+    "matplotlib": "3.10.8",
+    "beautifulsoup4": "4.14.3",
+    "lxml": "6.1.1",
+    "pyarrow": null,
+    "scipy": "1.17.0",
+    "statsmodels": "0.14.6",
+    "ipython": "9.14.0",
+    "python-pptx": "1.0.2",
+    "CairoSVG": "2.8.2",
+    "Pillow": "12.3.0",
+    "nbformat": "5.10.4"
+  },
+  "note": "Environment actually used for packaging and synthetic CSV B/C smoke test; not original production environment, a full lockfile, or a security audit."
+}

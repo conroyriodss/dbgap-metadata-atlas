@@ -1,0 +1,21 @@
+{
+  "checked_date": "2026-10-21",
+  "github_api_version": "2026-03-10",
+  "github_checkout_action": {
+    "ref": "v4",
+    "commit": "11d5960a326750d5838078e36cf38b85af677262",
+    "verification": "GitHub connector GET tag ref",
+    "source": "https://api.github.com/repos/actions/checkout/git/ref/tags/v4"
+  },
+  "documentation": [
+    "https://docs.github.com/en/rest/repos/repos",
+    "https://docs.github.com/en/rest/authentication/permissions-required-for-fine-grained-personal-access-tokens",
+    "https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens",
+    "https://docs.github.com/en/rest/git/refs",
+    "https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site",
+    "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files",
+    "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository",
+    "https://research.google.com/colaboratory/faq.html"
+  ],
+  "note": "Primary documentation consulted for repository publishing. No live publishing/Pages roundtrip was performed."
+}

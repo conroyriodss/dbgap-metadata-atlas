@@ -1,0 +1,17 @@
+name: Research question
+description: Propose a defined analysis and its validation plan.
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question and target quantity
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: Available data, missing data, missing analysis, and missing instrument
+  - type: textarea
+    id: validation
+    attributes:
+      label: Design, assumptions, confounders, validation and deliverable

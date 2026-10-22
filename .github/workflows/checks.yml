@@ -1,0 +1,21 @@
+name: Code and publication safeguards
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4 ref verified 2026-10-21
+        with:
+          persist-credentials: false
+      - name: Python version
+        run: python3 --version
+      - name: Static notebook and publication checks
+        run: python3 scripts/check_repo.py
+      - name: Repository-tool unit tests (no scientific API calls)
+        run: python3 -m unittest discover -s tests -v

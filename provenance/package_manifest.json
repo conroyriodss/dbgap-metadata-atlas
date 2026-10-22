@@ -1,0 +1,227 @@
+{
+  "files": {
+    ".dbgap-project.json": {
+      "bytes": 164,
+      "sha256": "90e614dc88eca5cd81a7c1c6820e1342c938a489bdc95cbf50653f27017b4cd4"
+    },
+    ".gitattributes": {
+      "bytes": 103,
+      "sha256": "9e1086d916ecb09e5b15edc6409e5863c24be020fb3286b85fa651dbb20883e2"
+    },
+    ".github/ISSUE_TEMPLATE/bug.yml": {
+      "bytes": 809,
+      "sha256": "badfb6f08ac2335ced8ff591abcdc610ed83618fb48f47aad371ea9ca0d78063"
+    },
+    ".github/ISSUE_TEMPLATE/research.yml": {
+      "bytes": 487,
+      "sha256": "143ed088b67fa95cfabbcd2ca04e8e319ee97008e8da54e0fb65cd01495b57fc"
+    },
+    ".github/pull_request_template.md": {
+      "bytes": 445,
+      "sha256": "15b0684f9000a27af9ed0d0c44de43702fdf98ebfddc0f10de004aa792601eb8"
+    },
+    ".github/workflows/checks.yml": {
+      "bytes": 624,
+      "sha256": "965a96a7d186f868e159116a397597c3de129bd0af829dbb7e8f1504c04fce74"
+    },
+    ".gitignore": {
+      "bytes": 501,
+      "sha256": "0132e240de7d5e4e1ef4b1482f861e47d7df71f7e2bd7f88b62d9646f40be3a2"
+    },
+    "CHANGELOG.md": {
+      "bytes": 1298,
+      "sha256": "4101ee0de95622ca3034aa2f6526af193b1a63bccd154e166ee1a5bc77ef0072"
+    },
+    "CITATION.cff": {
+      "bytes": 661,
+      "sha256": "5637c202ccbdbb68e82bb15ed6a02f043a0631fec5fa900e54a583274aae00af"
+    },
+    "CONTRIBUTING.md": {
+      "bytes": 1228,
+      "sha256": "f6a5741d63d715b1c99c8d357c89d589449c14b281bba322202bde9cf12be374"
+    },
+    "LICENSE_STATUS.md": {
+      "bytes": 1312,
+      "sha256": "2342c716ed1056885d6334649f89c1a3f27a65f67d28c4ae740b99ab78292b5b"
+    },
+    "README.md": {
+      "bytes": 5560,
+      "sha256": "b10847633caacf1c75356fdac764ff23267c4116ceb93020db008c0dcfa7ed35"
+    },
+    "SECURITY.md": {
+      "bytes": 1186,
+      "sha256": "74f4944714f7f4d75f305eeed35b8eedb3f86e07e9ed97f7c412b87c8627df9f"
+    },
+    "docs/.nojekyll": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "docs/architecture.md": {
+      "bytes": 2313,
+      "sha256": "6ce2d4859b21dc603b50d0ad45e7139b122d8d07de22d178ce3382afbc2f9524"
+    },
+    "docs/data_sources.md": {
+      "bytes": 3802,
+      "sha256": "44f5f50afb0656361c00f1005027c24b83db2b61842f31c7a208cf202eadba8a"
+    },
+    "docs/drive_workspace.md": {
+      "bytes": 8552,
+      "sha256": "5f80c462ceb2f43842bf3397890ac22bf4ea105092d6ae7a1aca41d75841e687"
+    },
+    "docs/index.html": {
+      "bytes": 2260,
+      "sha256": "a77bec2d12a1affa3b3224e937ba0dcd03e83e1f4d95d3ce15f3b9335e9385ae"
+    },
+    "docs/metrics.md": {
+      "bytes": 3278,
+      "sha256": "ecb4921ee268d8d9a8386e6cd7017c692fbe0b8506dd550347c84b884ae90a22"
+    },
+    "docs/publication_policy.md": {
+      "bytes": 2423,
+      "sha256": "83822f213f1782539851ae7bb22527814322a540c7d1ab36dce6d4823d2ee9b2"
+    },
+    "docs/published_comparisons.md": {
+      "bytes": 2189,
+      "sha256": "47aa967b02ef2b7dfcc0472a91942b37fcd47a32ce5b6e422c6605e7a4b143c1"
+    },
+    "docs/publishing.md": {
+      "bytes": 6014,
+      "sha256": "2de5afe563d1082932ab8ee98781796f124de23524a34026af571518c8a9381d"
+    },
+    "docs/quickstart.md": {
+      "bytes": 2868,
+      "sha256": "bc94fdbdd9d3d7ff316fa58016b6cc9b33428dede9582a0b0794a28048d9f588"
+    },
+    "docs/release_checklist.md": {
+      "bytes": 1718,
+      "sha256": "a08b0b68fd098947d2c5041f078039c1a2cb772e619befa8b1ea87dfccbdc081"
+    },
+    "docs/replication_input_contract.json": {
+      "bytes": 2013,
+      "sha256": "11fa7e0eed13549f1ef378e6bafe4f399c715c5d06440512a70e53ee6cd87235"
+    },
+    "docs/reproducibility.md": {
+      "bytes": 2229,
+      "sha256": "1f7c59ba3b913d3a4ab3abd984ea92f720497458ff160062100ea04ddc63bd69"
+    },
+    "docs/research_questions.json": {
+      "bytes": 9007,
+      "sha256": "cb34308ab3bb11893535f84f62622fec6652868d1c21315dc376e40a7e91e157"
+    },
+    "docs/research_questions.md": {
+      "bytes": 5222,
+      "sha256": "62b2910768d0b5a370e9775d1785c425824661b8e4f982e36085bf5fb7f2c537"
+    },
+    "docs/semantics.md": {
+      "bytes": 2586,
+      "sha256": "67604d7e372478917038af778291a1d385667fb3933b3ce23cd6d2703e6717e1"
+    },
+    "docs/slide_guide.md": {
+      "bytes": 1933,
+      "sha256": "0e684b5b0c69e81d77a6e93735c9fff9d075dd23c880cb5fb3036e1ec20ccb18"
+    },
+    "docs/validation.md": {
+      "bytes": 1739,
+      "sha256": "9e5f56ac27e2f779bc15874757a271db1b100646cbe2a0fb5100298747e2b4d0"
+    },
+    "notebooks/00_publish_github.ipynb": {
+      "bytes": 8081,
+      "sha256": "0c8632037f2ae8ed7daa0e1a5ef1394c73f385b725e76b3b91068ba08b7c2907"
+    },
+    "notebooks/01_collect.ipynb": {
+      "bytes": 387966,
+      "sha256": "a1e9d6a4d58779984ab8a995d6364159a79d423a93fa3533e7cc02d897a8157e"
+    },
+    "notebooks/02_analyze.ipynb": {
+      "bytes": 348438,
+      "sha256": "c1e76f2880f7f803480a15da03ebb4caa7af37334ac6af1c2fb7c94a06553178"
+    },
+    "notebooks/03_slides.ipynb": {
+      "bytes": 46792,
+      "sha256": "db9411a279148104a645c14bd8ce2befbe7415e9731b37bce154ac949c5d09c6"
+    },
+    "provenance/drive_selected_notebooks.json": {
+      "bytes": 1076,
+      "sha256": "f805cf74ec5ec7b031f5a1f4cb13ebbca56459429c941d49caedaa32357ee45d"
+    },
+    "provenance/external_documentation.json": {
+      "bytes": 1277,
+      "sha256": "050d24c8289f54f1cd8c1cbb3df00b22b95ce22dbf1aca510469182a5eb5fa65"
+    },
+    "provenance/packaging_environment.json": {
+      "bytes": 567,
+      "sha256": "5d54b1faa3bde2ba9ac0d38b0b3871bcf4225e77225edc9d8e4076dd66b35b68"
+    },
+    "provenance/packaging_test_report.json": {
+      "bytes": 1663,
+      "sha256": "1b384960956edf98f2c1248a85c967ab162e8035c759a5c49ca70e1a0fb9ba92"
+    },
+    "provenance/reported_run_context.json": {
+      "bytes": 1261,
+      "sha256": "7f83751fd80bba457d123a97d5b07e4a9a8e56ceae619f25bf629292b5c7f199"
+    },
+    "provenance/source_notebooks.json": {
+      "bytes": 9708,
+      "sha256": "ac4f944ee884fefe1d0281178cebc654289fc337b9ee9421793c7a4eacca7da4"
+    },
+    "public_files.json": {
+      "bytes": 1868,
+      "sha256": "05e9700ecac52d6ffca45e5651106da0b10c56531926a0783b97ff402a9b3fc2"
+    },
+    "requirements-dev.txt": {
+      "bytes": 48,
+      "sha256": "c11c9e2275e124130e465b62d45934bd03a351099fc88a39a1b6d5771f5fc9c1"
+    },
+    "requirements.txt": {
+      "bytes": 384,
+      "sha256": "722c1706f4b46d85303d151b55fb76061411b0c750e93a9f51edf51d8221a63b"
+    },
+    "scripts/check_repo.py": {
+      "bytes": 840,
+      "sha256": "1c2e5b0d568d1cd5ff73c0109957ac3024b0ce1f5a9dbe23859d61f82dda715b"
+    },
+    "scripts/drive_workspace.py": {
+      "bytes": 37477,
+      "sha256": "9caa52c0e3d50233d45c5868fa288383c55ae9e08d8fc6a2aa917aa970f0358b"
+    },
+    "scripts/publish_github.py": {
+      "bytes": 17680,
+      "sha256": "aa87e11daf2606fad9f93b6dcf5de4f62b279a9a1dc0fa9730aa2fde6675889e"
+    },
+    "scripts/record_environment.py": {
+      "bytes": 1331,
+      "sha256": "98979ca9087af98f07fdcc6269e10f506bc689e52f0d65b4f76801ba1886a6a8"
+    },
+    "scripts/refresh_package_manifest.py": {
+      "bytes": 1572,
+      "sha256": "99ee3378c60f2369f69995e121fbe16e92a54525d16f9b80e7831e913eb48aaa"
+    },
+    "scripts/repo_tools.py": {
+      "bytes": 10546,
+      "sha256": "94d6391f91a9f8f7ccbe17aae15b1de05a35bc8b04686f434d8f34b5534a4e1a"
+    },
+    "scripts/smoke_test.py": {
+      "bytes": 6030,
+      "sha256": "63cc8df95feef91ce3a8d90232545fb9d8d8a0b93938f90aac11515503399653"
+    },
+    "tests/test_drive_staging.py": {
+      "bytes": 2541,
+      "sha256": "1af97f6a39c97beb4fe978ebdf2f8df62165f9e3fc4de329335d53ebd4a76abf"
+    },
+    "tests/test_drive_workspace.py": {
+      "bytes": 14044,
+      "sha256": "21b089e97e86311e1f14402fbed780aa7a163d65f78866bd76a0acb5f93e1101"
+    },
+    "tests/test_large_notebook_folders.py": {
+      "bytes": 7765,
+      "sha256": "3752ce6b9ec7174830651159da8c7d1f1cf1773e6efe38795785dcfb21750478"
+    },
+    "tests/test_repository.py": {
+      "bytes": 12076,
+      "sha256": "ad1abe069eba049175bd7353020b99a023e2c4d7b0d2b555990fe4c6c6202e06"
+    }
+  },
+  "note": "Exact prepared code/documentation payload; not a scientific data release. Excludes itself.",
+  "project_id": "dbgap-metadata-atlas",
+  "schema_version": 1
+}

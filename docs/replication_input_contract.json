@@ -1,0 +1,108 @@
+{
+  "submission_events": [
+    "submission_id",
+    "root_accession",
+    "entity_id",
+    "entity_name",
+    "institution_id",
+    "institution_name",
+    "submitted_at",
+    "role",
+    "source_url",
+    "validated"
+  ],
+  "assay_submission_events": [
+    "root_accession",
+    "data_type",
+    "submitted_at",
+    "source_url",
+    "validated"
+  ],
+  "rep_lifecycle": [
+    "study_id",
+    "root_accession",
+    "study_type",
+    "release_date",
+    "followup_end",
+    "release_verified",
+    "request_history_complete",
+    "publication_history_complete",
+    "n_participants",
+    "completion_year",
+    "purpose",
+    "research_area",
+    "source_url"
+  ],
+  "rep_access": [
+    "request_id",
+    "study_id",
+    "requester_id",
+    "institution_id",
+    "consent_group_id",
+    "request_date",
+    "decision_date",
+    "approved",
+    "fulfilled_date",
+    "download_date",
+    "download_observation_complete",
+    "request_unit",
+    "purpose_category",
+    "purpose_validated",
+    "external_funding",
+    "external_funding_known",
+    "source_url",
+    "validated"
+  ],
+  "rep_publications": [
+    "study_id",
+    "request_id",
+    "pmid",
+    "publication_date",
+    "secondary_use_verified",
+    "request_link_verified",
+    "source_url",
+    "validated"
+  ],
+  "rep_institutions": [
+    "institution_id",
+    "institution_label",
+    "profit_status",
+    "institution_type",
+    "country",
+    "continent",
+    "latitude",
+    "longitude",
+    "source_url",
+    "validated"
+  ],
+  "rep_samples": [
+    "study_id",
+    "root_accession",
+    "sample_id",
+    "broad_phenotype",
+    "technology",
+    "snp_array_size",
+    "snapshot_date",
+    "source_url",
+    "validated"
+  ],
+  "rep_topics": [
+    "pmid",
+    "topic",
+    "source_url",
+    "validated"
+  ],
+  "rep_metrics": [
+    "pmid",
+    "journal",
+    "citation_count",
+    "citation_percentile",
+    "percentile_direction",
+    "metric_system",
+    "metric_as_of",
+    "publication_date",
+    "cohort",
+    "source_url",
+    "validated"
+  ]
+}

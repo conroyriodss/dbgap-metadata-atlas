@@ -1,0 +1,26 @@
+{
+  "notebooks": [
+    {
+      "code_sha256": "75e6bd986975c15078b1ceb817432aab746a8ef648ee851d607e044afc25c864",
+      "matches_adopted_scientific_code": false,
+      "prepared_sha256": "a1e9d6a4d58779984ab8a995d6364159a79d423a93fa3533e7cc02d897a8157e",
+      "repository_path": "notebooks/01_collect.ipynb",
+      "role": "A"
+    },
+    {
+      "code_sha256": "6280611a930d42bdddb69021b0115b7ac5b95108408e57338b190a030dcbdda4",
+      "matches_adopted_scientific_code": true,
+      "prepared_sha256": "c1e76f2880f7f803480a15da03ebb4caa7af37334ac6af1c2fb7c94a06553178",
+      "repository_path": "notebooks/02_analyze.ipynb",
+      "role": "B"
+    },
+    {
+      "code_sha256": "ee1b1a6c734b26716e16a51ada79c8fd1906a34247240d9314e4508de114f8ad",
+      "matches_adopted_scientific_code": true,
+      "prepared_sha256": "db9411a279148104a645c14bd8ce2befbe7415e9731b37bce154ac949c5d09c6",
+      "repository_path": "notebooks/03_slides.ipynb",
+      "role": "C"
+    }
+  ],
+  "scope": "Notebook bytes from a maintainer-selected Drive workspace; no folder IDs or paths published."
+}

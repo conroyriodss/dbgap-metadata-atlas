@@ -1,0 +1,15 @@
+# Initial exact direct-dependency baseline. Not the original Colab production lockfile.
+# PyArrow is required for production Parquet; the repository smoke test uses CSV.
+numpy==2.3.5
+pandas==2.2.3
+requests==2.32.5
+matplotlib==3.10.8
+beautifulsoup4==4.14.3
+lxml==6.1.1
+pyarrow==21.0.0
+scipy==1.17.0
+statsmodels==0.14.6
+ipython==9.14.0
+python-pptx==1.0.2
+CairoSVG==2.8.2
+Pillow==12.3.0

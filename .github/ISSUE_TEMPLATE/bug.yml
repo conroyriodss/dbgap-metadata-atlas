@@ -1,0 +1,23 @@
+name: Bug or data-quality issue
+description: Report a reproducible failure without sensitive records.
+title: "[Bug] "
+body:
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed versus expected behavior
+      description: Include notebook section, code commit and sanitized error. No secrets or record-level logs.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Reproduction and evidence
+      description: Source snapshot ID/hash, environment, synthetic case, and missing data versus missing analysis.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Public issue check
+      options:
+        - label: This issue contains no credentials, controlled data, or unreviewed person-level records.
+          required: true

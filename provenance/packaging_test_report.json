@@ -1,0 +1,46 @@
+{
+  "assembled_utc": "2026-10-21T19:59:42.026380+00:00",
+  "result": "pass",
+  "repository_unit_tests": {
+    "run": 32,
+    "passed": 32,
+    "failures": 0,
+    "github_network": "mocked; no live mutation",
+    "log_sha256": "e772c842fa98d036aaf57aef0e9ac9c894b778447dd979587bc02ad71344419f"
+  },
+  "notebook_validation": {
+    "nbformat_validated": [
+      "00_publish_github.ipynb",
+      "01_collect.ipynb",
+      "02_analyze.ipynb",
+      "03_slides.ipynb"
+    ],
+    "adopted_scientific_code_cells": 47,
+    "scientific_code_changes": 0
+  },
+  "synthetic_pipeline": {
+    "status": "pass",
+    "scope": "Executed actual B and C code on synthetic CSV inputs, settings overridden in memory.",
+    "B_code_cells": 18,
+    "C_code_cells": 1,
+    "slides": 14,
+    "source_inputs_unchanged": true,
+    "scientific_api_calls": 0,
+    "parquet_serialization_tested": false,
+    "powerpoint_created": true,
+    "seconds": 8.72,
+    "limitations": [
+      "A collection not executed",
+      "No production records",
+      "No independent scientific validation"
+    ]
+  },
+  "scope_limits": [
+    "Production Drive data not executed",
+    "A acquisition not executed",
+    "Parquet serialization not tested",
+    "No live GitHub writes, release, Pages deployment or CI run performed",
+    "No scientific, identity, provenance, licensing or privacy clearance implied"
+  ],
+  "initial_test_environment_note": "The first network-blocked attempt was interrupted by a local Matplotlib telemetry hook; the successful rerun disabled that environment-specific hook while leaving scientific network access blocked. No such hook code is included in the delivered notebooks."
+}

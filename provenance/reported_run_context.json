@@ -1,0 +1,30 @@
+{
+  "evidence_status": "User-reported run checks and supplied rendered deck; not recomputed by repository packaging.",
+  "source_check_counts": {
+    "passed_structural_checks": 32,
+    "failed_structural_checks": 0,
+    "missing_artifacts_skipped": 0,
+    "failed_source_checks": 37
+  },
+  "reported_tables": {
+    "root_accessions": 3669,
+    "pubmed_link_rows": 12784,
+    "stored_icite_pmids": 10010,
+    "defined_rcr_pmids": 9888,
+    "reporter_publication_project_rows": 19919,
+    "reporter_linked_pmids": 5877,
+    "reporter_core_rows": 3949,
+    "reporter_study_rollup_rows": 1562,
+    "dated_first_dar_roots": 2646
+  },
+  "interpretation": [
+    "Structural passes are not validation of publication reuse, entity identity, history coverage, causal inference or funding attribution.",
+    "37 unsuccessful source checks do not imply 37 missing or unused datasets; prior successful rows may be retained.",
+    "Stored PMID inventory and distinct successfully retrieved linked PMIDs are different definitions; no reconciliation was recomputed here."
+  ],
+  "latest_supplied_deck": {
+    "filename": "dbgap_preliminary_14_slides (1).html",
+    "sha256": "5b1928677e34edec66f7fee4d9d3a54d4040196a4d6d2fe8e3ca3727b63367a4",
+    "redistributed": false
+  }
+}
